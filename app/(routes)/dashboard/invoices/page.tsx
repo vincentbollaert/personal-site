@@ -1,6 +1,6 @@
-import Pagination from '@/app/ui/invoices/pagination'
+import Pagination from '@/app/(routes)/dashboard/invoices/pagination'
 import Search from '@/app/ui/components/search'
-import Table from '@/app/ui/invoices/table'
+import Table from '@/app/(routes)/dashboard/invoices/table'
 import { CreateInvoice } from '@/app/(routes)/dashboard/invoices/buttons'
 import { lusitana } from '@/app/ui/fonts'
 import { fetchInvoicesPages } from '@/app/lib/data'
