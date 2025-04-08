@@ -1,4 +1,4 @@
-import { ValidationState } from '../lib/actions'
+import { ValidationState } from '../../lib/actions'
 
 export const ErrorMessage = (props: {
   fieldId: keyof NonNullable<ValidationState['errors']>

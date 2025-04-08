@@ -5,8 +5,8 @@ import { CustomerField, InvoiceForm } from '@/app/lib/definitions'
 import { CheckIcon, ClockIcon, CurrencyDollarIcon, UserCircleIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link'
 import { updateInvoice, ValidationState } from '@/app/lib/actions'
-import { Button } from '@/app/ui/button'
-import { ErrorMessage } from '../error-message'
+import { Button } from '@/app/ui/primitives/button'
+import { ErrorMessage } from '../primitives/error-message'
 
 export default function EditInvoiceForm({ invoice, customers }: { invoice: InvoiceForm; customers: CustomerField[] }) {
   const initialState: ValidationState = { message: null, errors: {} }
